@@ -1,11 +1,3 @@
-Some basic addressing modes used -
-
-
-| Instruction | Description                                                 | Syntax                  | Example            | Notes                                        |
-| ----------- | ----------------------------------------------------------- | ----------------------- | ------------------ | -------------------------------------------- |
-| MOV         | Move a value or register content to another register        | `MOV Rd, Operand2`      | `MOV R0, #5`       | Moves an immediate or register value into Rd |
-| MVN         | Move NOT — moves the bitwise NOT of a value                 | `MVN Rd, Operand2`      | `MVN R1, R0`       | Rd = NOT Operand2 (bitwise complement)       |
-| LDR         | Load Register — loads a value from memory into a register   | `LDR Rd, [Rn, #offset]` | `LDR R2, [R3, #4]` | Loads from address (Rn + offset) into Rd     |
-| ADR         | Load address — loads the address of a label into a register | `ADR Rd, label`         | `ADR R4, my_label` | Useful for PC-relative addressing            |
+          |
 
 
